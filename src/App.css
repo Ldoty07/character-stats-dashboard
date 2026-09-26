@@ -1,0 +1,67 @@
+#container {
+  max-width: var(--max);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lightBtn {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  padding: var(--btn-space);
+  cursor: pointer;
+}
+
+.lightBtn:hover {
+  background-color: var(--card-hover);
+}
+
+.darkBtn {
+  background-color: var(--bg);
+  color: var(--text);
+  padding: var(--btn-space);
+  cursor: pointer;
+}
+
+.darkBtn:hover {
+  background-color: var(--border);
+}
+
+#characterHealthInput {
+  margin-right: var(--space1);
+  margin-left: var(--space1);
+}
+
+#dashboardSection {
+  padding: var(--space2);
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+}
+
+.characterCard {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: var(--space1);
+  cursor: pointer;
+}
+
+.characterCard:hover {
+  background-color: var(--card-hover);
+}
+
+#characterDetails {
+  border-top: 2px solid var(--border);
+  margin-top: 2rem;
+}
+
+.warning {
+  color: red;
+}
+
+#inventoryItemInput {
+  margin-right: var(--space1);
+}
